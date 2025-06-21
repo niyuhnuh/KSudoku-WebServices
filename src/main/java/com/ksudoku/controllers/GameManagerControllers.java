@@ -5,13 +5,16 @@ import java.time.LocalTime;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 //@Controller
 //@ResponseBodys
 
+@RequestMapping("/tictactoe-services/service")	
 @RestController //a combination of @Controller and @ResponseBody
 public class GameManagerControllers {
+	
 	
 	@GetMapping("/ping")
 	public ResponseEntity<String> ping(){
