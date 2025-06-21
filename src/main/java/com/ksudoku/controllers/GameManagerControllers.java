@@ -1,4 +1,4 @@
-package com.ksuduko.controllers;
+package com.ksudoku.controllers;
 
 import java.time.LocalTime;
 
@@ -18,7 +18,7 @@ public class GameManagerControllers {
 		return ResponseEntity.ok("Healthy naman");
 	}
 	
-	@GetMapping("/geGamCode")
+	@GetMapping("/getGameCode")
 	public String getGameCode() {
 		String code ="";
 		

@@ -1,4 +1,4 @@
-package com.ksuduko.controllers;
+package com.ksudoku.controllers;
 
 import java.util.Map;
 
@@ -13,6 +13,7 @@ public class GameLogicControllers {
 		Map<String, Map<String, String>> map = null;
 		return map;
 	}
+	
 	
 	
 }
